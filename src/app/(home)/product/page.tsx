@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -14,7 +15,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/Palace-2024-cap-18663.webp"} alt="skateboard" className="w-full h-full object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/Palace-2024-cap-18663.webp"} alt="skateboard" className="w-full h-full object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -36,7 +37,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/Palace-2024-cap-18653.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/Palace-2024-cap-18653.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -57,7 +58,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/Palace-Winter-2024-07.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/Palace-Winter-2024-07.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -79,7 +80,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/polar-roman-lorca.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/polar-roman-lorca.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -100,7 +101,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/BLEDSOE.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/BLEDSOE.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -122,7 +123,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/baker-veneers-8.25.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/baker-veneers-8.25.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -159,7 +160,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/sci-fi-device-tee-royal-01.webp"} alt="skateboard" className="w-full h-full object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/sci-fi-device-tee-royal-01.webp"} alt="skateboard" className="w-full h-full object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -180,7 +181,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/NM480EST_1.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/NM480EST_1.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -201,7 +202,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/01_7277082a-82ce-42a7-9ab6-cab173a2039b.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/01_7277082a-82ce-42a7-9ab6-cab173a2039b.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -223,7 +224,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/NM574VBP-01.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/NM574VBP-01.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -244,7 +245,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/Vert-Jersey-Sky-Brown-1.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/Vert-Jersey-Sky-Brown-1.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
@@ -266,7 +267,7 @@ export default function ProductsPage (){
 
                     <Link href={"/"} className="max-w-[384px] mx-auto">
                         <div className="w-full max-w-sm aspect-square overflow-hidden">
-                            <img src={"/catalog/ANDROMEDA-F-Z-HOODIE_STONE_PF00706_STONE_02.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></img>
+                            <Image src={"/catalog/ANDROMEDA-F-Z-HOODIE_STONE_PF00706_STONE_02.webp"} alt="skateboard" className="w-full h-full  object-cover transition-transform hover hover:scale-[1.3]"></Image>
                         </div>
                         <div className="mt-5 flex items-center justify-between">
                             <div className="">
