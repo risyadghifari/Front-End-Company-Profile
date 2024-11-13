@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Inter_Tight } from 'next/font/google';
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 const inter = Inter_Tight({
   subsets: ['latin'],
@@ -17,6 +18,8 @@ const Navbar = () => {
   const [navbarColor, setNavbarColor] = useState('bg-transparent'); // Default navbar color
 
   const pathname = usePathname(); // Access pathname directly
+  const [menuOpen, setMenuOpen] = React.useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,22 +44,68 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 m-0 p-0 left-0 w-full z-[50] transition-all duration-300 ${
-        navbarColor
-      } ${isSolid ? "text-white shadow-md" : "text-white"}`}
+  className={`fixed top-0 left-0 w-full z-[50] transition-all duration-300 ${
+    navbarColor
+  } ${isSolid ? "text-white shadow-md" : "text-white"}`}
+>
+  <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+    {/* Logo */}
+    <Link href="/" className="flex-shrink-0">
+      <Image
+        src="/logo/Berrics-logo-04.png"
+        alt="Logo"
+        width={100}
+        height={50}
+        className="w-35"
+      />
+    </Link>
+
+    {/* Burger Menu Button */}
+    <button
+      className="md:hidden flex items-center justify-center p-2 w-10 h-10 text-white rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200"
+      onClick={() => setMenuOpen((prev) => !prev)} // Toggle menu state
     >
-      <div className={`${inter.className} max-w-7xl mx-auto px-4 py-4 flex items-center justify-between`}>
-        <Link href="/">
-          <Image src="/logo/Berrics-logo-04.png" alt="Logo" width={100} height={50} className="w-35" />
+      <span className="sr-only">Open main menu</span>
+      <svg
+        className="w-6 h-6"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M4 6h16M4 12h16M4 18h16"
+        />
+      </svg>
+    </button>
+
+    {/* Navigation Links */}
+    <div
+      className={`${
+        menuOpen ? "block" : "hidden"
+      } absolute top-16 left-0 w-full bg-black text-white md:relative md:top-0 md:flex md:items-center md:justify-end md:space-x-10 md:w-auto md:bg-transparent`}
+    >
+      <div className={`${inter.className} flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-10 text-[15px] font-semibold p-4 md:p-0`}>
+        <Link href="/" className="hover:text-blue-400">
+          Home
         </Link>
-        <div className="space-x-10 text-[15px] font-semibold">
-          <Link href="/">Home</Link>
-          <Link href="/home/about">About</Link>
-          <Link href="/home/product">Shop</Link>
-          <Link href="/home/team">Team</Link>
-        </div>
+        <Link href="/home/about" className="hover:text-blue-400">
+          About
+        </Link>
+        <Link href="/home/product" className="hover:text-blue-400">
+          Shop
+        </Link>
+        <Link href="/home/team" className="hover:text-blue-400">
+          Team
+        </Link>
       </div>
-    </nav>
+    </div>
+  </div>
+</nav>
+
   );
 };
 

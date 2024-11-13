@@ -92,16 +92,13 @@ export default function HomePage() {
           backgroundImage: 'url(/linoleum-creative-collective-i3b8zJ48o0M-unsplash.png)',
         }}
       >
-        <div className="flex-col space-y-4 sm:space-y-8 sm:w-1/2">
+        <div className="flex-col space-y-1 sm:space-y-4 ml-20 sm:w-1/3">
           <h5 className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}>
             Testimonials
           </h5>
           <h1 className="text-[22px] sm:text-[30px] md:text-[36px] lg:text-[40px]">
-            THE HOME FOR SKATEBOARDING
+          Testimonials from skaters, cities and skatepark enthusiasts, alike.
           </h1>
-          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-            The Berrics is a private indoor skatepark owned by professional skateboarders Steve Berra and Eric Koston.
-          </p>
         </div>
         <div className="flex justify-center mt-6 sm:mt-0">
           <SlidingText />
