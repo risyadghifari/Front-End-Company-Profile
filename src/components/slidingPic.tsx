@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 export const dynamic = "force-dynamic";
 
@@ -42,8 +43,10 @@ export default function SliderImage() {
               index === activeSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            <img
+            <Image
               src={slide}
+              width={800}
+              height={800}
               alt={`Slide ${index + 1}`}
               className="block w-full h-full object-cover"
             />
