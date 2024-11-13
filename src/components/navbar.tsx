@@ -62,7 +62,7 @@ const Navbar = () => {
 
     {/* Burger Menu Button */}
     <button
-      className="md:hidden flex items-center justify-center p-2 w-10 h-10 text-white rounded hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200"
+      className="md:hidden flex items-center justify-center p-2 w-10 h-10 text-white rounded hover:bg-black focus:outline-none focus:ring-2 focus:ring-gray-200"
       onClick={() => setMenuOpen((prev) => !prev)} // Toggle menu state
     >
       <span className="sr-only">Open main menu</span>
@@ -89,16 +89,16 @@ const Navbar = () => {
       } absolute top-16 left-0 w-full bg-black text-white md:relative md:top-0 md:flex md:items-center md:justify-end md:space-x-10 md:w-auto md:bg-transparent`}
     >
       <div className={`${inter.className} flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-10 text-[15px] font-semibold p-4 md:p-0`}>
-        <Link href="/" className="hover:text-blue-400">
+        <Link href="/" className="hover:text-black hover:bg-slate-50 p-2">
           Home
         </Link>
-        <Link href="/home/about" className="hover:text-blue-400">
+        <Link href="/home/about" className="hover:text-black hover:bg-slate-50 p-2">
           About
         </Link>
-        <Link href="/home/product" className="hover:text-blue-400">
+        <Link href="/home/product" className="hover:text-black hover:bg-slate-50 p-2">
           Shop
         </Link>
-        <Link href="/home/team" className="hover:text-blue-400">
+        <Link href="/home/team" className="hover:text-black hover:bg-slate-50 p-2">
           Team
         </Link>
       </div>
