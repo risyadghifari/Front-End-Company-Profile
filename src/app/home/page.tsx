@@ -18,13 +18,20 @@ const inter = Inter_Tight({
 
 const interMedium = Inter({
   subsets: ['latin'],
-  weight: '300',
+  weight: '500',
   display: 'swap',
+});
+
+const interItalic = Inter({
+  subsets: ['latin'],
+  weight: '900',
+  display: 'swap',
+  style: 'italic'
 });
 
 export default function HomePage() {
   return (
-    <div>
+    <div className="bg-neutral-50">
       <VideoPlayer />
 
       {/* Section 1 */}
@@ -33,7 +40,7 @@ export default function HomePage() {
       >
         <div className="flex-col sm:w-1/3 space-y-4 sm:space-y-8 mr-[80px]">
           <h5
-            className={`${inter.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}
+            className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}
           >
             ABOUT THE BERRICS
           </h5>
@@ -52,7 +59,7 @@ export default function HomePage() {
       >
         <div className="flex-col sm:w-1/3 space-y-4 sm:space-y-8 mr-[80px]">
           <h5
-            className={`${inter.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}
+            className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}
           >
             COMPANY OVERVIEW
           </h5>
@@ -86,7 +93,7 @@ export default function HomePage() {
         }}
       >
         <div className="flex-col space-y-4 sm:space-y-8 sm:w-1/2">
-          <h5 className="text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]">
+          <h5 className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}>
             Testimonials
           </h5>
           <h1 className="text-[22px] sm:text-[30px] md:text-[36px] lg:text-[40px]">
@@ -103,14 +110,14 @@ export default function HomePage() {
 
       {/* Product Section */}
       <div
-        className="w-full h-auto mt-[80px] relative text-black sm:p-[80px] bg-white items-center justify-center flex flex-col sm:flex-row space-x-4 sm:space-x-20 space-y-6 sm:space-y-0"
+        className="w-full h-auto mt-[80px] relative text-black sm:p-[80px] items-center justify-center flex flex-col sm:flex-row space-x-4 sm:space-x-20 space-y-6 sm:space-y-0"
       >
         <div className="sm:w-1/4 space-y-4 sm:space-y-8">
         <FadeInSections>
-          <h5 className={`${inter.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
+          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
             THE PRODUCTS
           </h5>
-          <h1 className="text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]">
+          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]`}>
           Featured Footwear
           </h1>
           <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
@@ -128,7 +135,7 @@ export default function HomePage() {
 
       {/* Image Section */}
       <div
-        className="mt-[8vw] w-full h-auto relative text-black p-6 sm:p-[50px] bg-white flex flex-col sm:flex-row justify-between space-y-6 sm:space-y-0"
+        className="mt-[8vw] w-full h-auto relative text-black p-6 sm:p-[50px] flex flex-col sm:flex-row justify-between space-y-6 sm:space-y-0"
       >
         <div className="sm:w-1/2 space-y-4 sm:space-y-8">
           <h5 className="text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]">

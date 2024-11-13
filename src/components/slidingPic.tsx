@@ -61,7 +61,7 @@ export default function SliderImage() {
             key={index}
             type="button"
             className={`w-6 h-1 rounded-[10px] ${
-              activeSlide === index ? "bg-white" : "bg-gray-500"
+              activeSlide === index ? "bg-gray-800" : "bg-gray-300"
             }`}
             aria-current={activeSlide === index ? "true" : "false"}
             aria-label={`Slide ${index + 1}`}
@@ -76,7 +76,7 @@ export default function SliderImage() {
         className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
         onClick={handlePrev}
       >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white">
+        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white">
           <svg
             className="w-4 h-4 text-white"
             xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +100,7 @@ export default function SliderImage() {
         className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
         onClick={handleNext}
       >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white">
+        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white">
           <svg
             className="w-4 h-4 text-white"
             xmlns="http://www.w3.org/2000/svg"

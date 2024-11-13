@@ -47,7 +47,7 @@ const VideoPlayer = () => {
 
       {/* Text Overlay */}
       <div
-        className={`${inter.className} relative text-white z-[3] text-center sm:text-right px-4 sm:px-24 py-6 sm:py-[20px]`}
+        className={`${inter.className} relative text-white z-[3] text-center sm:text-left px-4 sm:px-24 py-6 sm:py-[20px]`}
       >
         <h1 className="text-[24px] sm:text-[40px] mt-[30vw] sm:mt-[18vw]">
           But we at the Berrics believe

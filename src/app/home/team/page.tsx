@@ -2,15 +2,19 @@ import Image from "next/image";
 
 export default function TeamPage(){
     return(
-        <div>
-            <section className="bg-white dark:bg-gray-500 py-24">
+        <div className="bg-neutral-50">
+            <section className="dark:bg-gray-500 py-24">
+            <section>
+            <div className="px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+            <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+                <h2 className="text-3xl tracking-tight font-bold text-gray-900 dark:text-white">Our Team.</h2>
+                <h2 className="mb-4 text-1xl pt-[10px] tracking-tight font-medium text-gray-900 dark:text-white">NIKE, Inc. is a team comprised of the Nike, Jordan and Converse 
+                    brands driven by a shared purpose to leave an enduring impact.</h2>
+                </div>
+                </div>
+            </section> 
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-                    <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
-                        <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source</p>
-                    </div>
-
-                    <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                     <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                         <div className="text-center text-gray-500 dark:text-gray-400">
                             <Image className="mx-auto mb-4 w-full h-auto " src="/Teams/Eric Koston2.jpg" alt="" layout="responsive" width={100} height={100}></Image>
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -46,7 +50,7 @@ export default function TeamPage(){
                         <div className="text-center text-gray-500 dark:text-gray-400">
                             <Image className="mx-auto mb-4 w-full h-auto" src="/Teams/-Nike-SB-Koston-3-Shoe-Launch-QA-Nike-Town-London-March-2016-Photographer-Maksim-Kalanep-copy_THUMB-960x640.jpg" alt="" layout="responsive" width={100} height={100}></Image>
                             <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  <a href="#">Steve</a>
+                  <a href="#">Steve Berra</a>
               </h3>
               <p>CEO/Co-founder</p>
               <ul className="flex justify-center mt-4 space-x-4">
