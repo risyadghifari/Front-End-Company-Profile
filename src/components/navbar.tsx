@@ -28,11 +28,11 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    if (pathname === '/product') {
+    if (pathname === '/home/product') {
       setNavbarColor('bg-black'); // Example: Blue color on /product page
-    } else if (pathname === '/about') {
+    } else if (pathname === '/home/about') {
       setNavbarColor('bg-black'); // Example: Green color on /about page
-    } else if (pathname === '/team') {
+    } else if (pathname === '/home/team') {
       setNavbarColor('bg-black'); // Example: Red color on /contact page
     } else {
       setNavbarColor(isSolid ? 'bg-black' : 'bg-transparent'); // Default color
@@ -51,9 +51,9 @@ const Navbar = () => {
         </Link>
         <div className="space-x-10 text-[15px] font-semibold">
           <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/product">Shop</Link>
-          <Link href="/team">Team</Link>
+          <Link href="/home/about">About</Link>
+          <Link href="/home/product">Shop</Link>
+          <Link href="/home/team">Team</Link>
         </div>
       </div>
     </nav>
