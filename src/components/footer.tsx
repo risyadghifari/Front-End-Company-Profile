@@ -19,16 +19,16 @@ export default function Footer(){
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-3">
                       <li>
-                          <a href="/" className="hover:underline">About</a>
+                          <Link href="/" className="hover:underline">About</Link>
                       </li>
                       <li>
-                          <a href="/" className="hover:underline">Careers</a>
+                          <Link href="/" className="hover:underline">Careers</Link>
                       </li>
                       <li>
-                          <a href="/" className="hover:underline">Terms of use</a>
+                          <Link href="/" className="hover:underline">Terms of use</Link>
                       </li>
                       <li>
-                          <a href="/" className="hover:underline">Privacy</a>
+                          <Link href="/" className="hover:underline">Privacy</Link>
                       </li>
                   </ul>
               </div>
@@ -36,10 +36,10 @@ export default function Footer(){
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
                       <li className="mb-4">
-                          <a href="/" className="hover:underline ">Github</a>
+                          <Link href="/" className="hover:underline ">Github</Link>
                       </li>
                       <li>
-                          <a href="/" className="hover:underline">Discord</a>
+                          <Link href="/" className="hover:underline">Discord</Link>
                       </li>
                   </ul>
               </div>

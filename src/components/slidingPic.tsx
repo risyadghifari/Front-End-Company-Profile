@@ -1,6 +1,7 @@
 "use client";
 
-import { SetStateAction, useState } from "react";
+import { useState } from "react";
+export const dynamic = "force-dynamic";
 
 export default function SliderImage() {
   const [activeSlide, setActiveSlide] = useState(0); // Tracks the active slide
@@ -24,7 +25,7 @@ export default function SliderImage() {
   };
 
   // Go to a specific slide by its index
-  const goToSlide = (index: any) => {
+  const goToSlide = (index: number) => {
     if (index >= 0 && index < slides.length) {
       setActiveSlide(index);
     }
