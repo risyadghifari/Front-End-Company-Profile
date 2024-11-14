@@ -22,6 +22,12 @@ const interMedium = Inter({
   display: 'swap',
 });
 
+const interBold = Inter({
+  subsets: ['latin'],
+  weight: '800',
+  display: 'swap',
+});
+
 const interItalic = Inter({
   subsets: ['latin'],
   weight: '900',
@@ -132,19 +138,49 @@ export default function HomePage() {
 
       {/* Image Section */}
       <div
-        className="mt-[8vw] w-full h-auto relative text-black p-6 sm:p-[50px] flex flex-col sm:flex-row justify-between space-y-6 sm:space-y-0"
+        className="mt-[8vw] w-full h-auto relative text-black p-6 sm:p-[50px] flex flex-col sm:flex-row justify-end space-x-40 space-y-6 sm:space-y-0"
       >
-        <div className="sm:w-1/2 space-y-4 sm:space-y-8">
-          <h5 className="text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]">
-            ABOUT THE BERRICS
+        <div className="sm:w-1/5 space-y-4 sm:space-y-8">
+    <div>
+          <h5 className={`${interBold.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
+            A BRIEF HISTORY OF BERRICS:
           </h5>
-          <h1 className="text-[22px] sm:text-[30px] md:text-[36px] lg:text-[40px]">
-            THE HOME FOR SKATEBOARDING
+          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]`}>
+          1999 - 2003
           </h1>
-          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[22px]">
-            The Berrics is a private indoor skatepark owned by professional skateboarders Steve Berra and Eric Koston.
+          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
+            Any and all new arrivals will appear here and new products are added daily so be sure to bookmark us.
           </p>
         </div>
+
+        <div>
+          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
+         
+          </h5>
+          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]`}>
+          2004 - 2010
+          </h1>
+         
+          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
+            Any and all new arrivals will appear here and new products are added daily so be sure to bookmark us.
+          </p>
+          
+        </div>
+
+        <div>
+          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
+         
+          </h5>
+          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]`}>
+          2011 - 2015
+          </h1>
+          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
+            Any and all new arrivals will appear here and new products are added daily so be sure to bookmark us.
+          </p>
+        </div>
+        </div>
+        
+        
         <div className="overflow-hidden sm:w-1/4 space-y-4 sm:space-y-8">
           <FadeInSection>
             <Image

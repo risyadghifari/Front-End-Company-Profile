@@ -1,23 +1,39 @@
 import Image from "next/image";
+import { Inter } from "next/font/google";
+import FadeInSections from "@/components/animated2";
+
+const interItalic = Inter({
+    subsets: ['latin'],
+    weight: '900',
+    display: 'swap',
+    style: 'italic'
+  });
+
+
+
+
 
 export default function TeamPage(){
     return(
         <div className="bg-neutral-50">
-            <section className="dark:bg-gray-500 py-24">
+            <section className="dark:bg-neutral-50 py-24">
             <section>
-            <div className="px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+            <div className="px-4 mx-auto max-w-screen-xl text-left lg:py-16 lg:px-6">
             <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-                <h2 className="text-3xl tracking-tight font-bold text-gray-900 dark:text-white">Our Team.</h2>
-                <h2 className="mb-4 text-1xl pt-[10px] tracking-tight font-medium text-gray-900 dark:text-white">NIKE, Inc. is a team comprised of the Nike, Jordan and Converse 
-                    brands driven by a shared purpose to leave an enduring impact.</h2>
+                <h2 className={`${interItalic.className} text-3xl tracking-tight pb-8 font-bold text-gray-800 dark:text-gray-800`}>Meet our Team.</h2>
+                <hr className="border-gray-400"/>
+                <FadeInSections>
+                <h2 className="mb-4 text-1xl pt-[10px] tracking-tight font-bold text-gray-800 dark:text-gray-800">At Berrics, we are more than just a group of skateboard enthusiasts—we are a family of passionate, creative, and driven individuals who live and breathe skateboarding. From designing the perfect ride to hitting the pavement for some epic tricks, we all share one thing in common: the love for skateboarding.</h2>
+                <h2 className="mb-4 text-1xl pt-[10px] tracking-tight font-bold text-gray-800 dark:text-gray-800">We are a diverse team made up of riders, designers, marketers, and customer service pros, all working together to bring you the best skateboards, gear, and products on the market. Get to know the people behind the brand and see what makes us tick!</h2>
+                </FadeInSections>
                 </div>
                 </div>
             </section> 
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
                      <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                        <div className="text-center text-gray-500 dark:text-gray-400">
+                        <div className="text-center text-gray-800 dark:text-gray-800">
                             <Image className="mx-auto mb-4 w-full h-auto " src="/Teams/Eric Koston2.jpg" alt="" layout="responsive" width={100} height={100}></Image>
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-800 dark:text-gray-800">
                   <a href="#">Eric Koston</a>
               </h3>
               <p>CEO/Co-founder</p>
@@ -47,9 +63,9 @@ export default function TeamPage(){
 
 
 
-                        <div className="text-center text-gray-500 dark:text-gray-400">
+                        <div className="text-center text-gray-800 dark:text-gray-800">
                             <Image className="mx-auto mb-4 w-full h-auto" src="/Teams/-Nike-SB-Koston-3-Shoe-Launch-QA-Nike-Town-London-March-2016-Photographer-Maksim-Kalanep-copy_THUMB-960x640.jpg" alt="" layout="responsive" width={100} height={100}></Image>
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-800 dark:text-gray-800">
                   <a href="#">Steve Berra</a>
               </h3>
               <p>CEO/Co-founder</p>
@@ -78,9 +94,9 @@ export default function TeamPage(){
                         </div>
 
 
-                        <div className="text-center text-gray-500 dark:text-gray-400">
+                        <div className="text-center text-gray-800 dark:text-gray-800">
                             <Image className="mx-auto mb-4 w-full h-auto " src="/Teams/57xExovjkR0Sq8ngTDBzgWiiVgC.jpg" alt="" layout="responsive" width={100} height={100}></Image>
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-800 dark:text-gray-800">
                   <a href="#">Danny Way</a>
               </h3>
               <p>General Manager & Skateboarder</p>
@@ -109,12 +125,12 @@ export default function TeamPage(){
                         </div>
 
 
-                        <div className="text-center text-gray-500 dark:text-gray-400">
+                        <div className="text-center text-gray-800 dark:text-gray-800">
                             <Image className="mx-auto mb-4 w-full h-auto" src="/Teams/unnamed (1).jpg" alt="" layout="responsive" width={100} height={100}></Image>
-                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                            <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-800 dark:text-gray-800">
                   <a href="#">Mike Vallely</a>
               </h3>
-              <p>CEO/Co-founder</p>
+              <p>Art Director & Skateboarder</p>
               <ul className="flex justify-center mt-4 space-x-4">
                   <li>
                       <a href="#" className="text-[#39569c] hover:text-gray-900 dark:hover:text-white">
