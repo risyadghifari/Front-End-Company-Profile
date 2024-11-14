@@ -46,13 +46,13 @@ export default function HomePage() {
       >
         <div className="flex-col sm:w-1/3 space-y-4 sm:space-y-8 mr-[80px]">
           <h5
-            className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}
+            className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[20px]`}
           >
             ABOUT THE BERRICS
           </h5>
 
           <p
-            className={`${interMedium.className} text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px]`}
+            className={`${interMedium.className} text-[14px] sm:text-[16px] md:text-[18px] lg:text-[18px]`}
           >
             The Berrics is a private indoor skatepark owned by professional skateboarders Steve Berra and Eric Koston. It is also a website providing content filmed in the skatepark, as well as other skateboard-related media.
           </p>
@@ -65,25 +65,25 @@ export default function HomePage() {
       >
         <div className="flex-col sm:w-1/3 space-y-4 sm:space-y-8 mr-[80px]">
           <h5
-            className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}
+            className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[20px]`}
           >
             COMPANY OVERVIEW
           </h5>
 
           <p
-            className={`${interMedium.className} text-[14px] sm:text-[16px] md:text-[18px] lg:text-[22px]`}
+            className={`${interMedium.className} text-[14px] sm:text-[16px] md:text-[18px] lg:text-[18x]`}
           >
             Berra and Koston both purchased a building for the skateboarding facility with their own funds; one of the key initial goals for the Berrics facility was to provide a setting where skateboarders could practice their tricks to avoid spending that time in street-based environments in California, where skateboarding is illegal in most spaces.
           </p>
 
           <div className="flex flex-col sm:flex-row sm:space-x-7">
             <p
-              className={`${interMedium.className} text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]`}
+              className={`${interMedium.className} text-[14px] sm:text-[16px] md:text-[18px] lg:text-[18px]`}
             >
               Optimal Terrain
             </p>
             <p
-              className={`${interMedium.className} text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]`}
+              className={`${interMedium.className} text-[14px] sm:text-[16px] md:text-[18px] lg:text-[18px]`}
             >
               Rocky | Steep | Muddy | Mix
             </p>
@@ -99,10 +99,10 @@ export default function HomePage() {
         }}
       >
         <div className="flex-col space-y-1 sm:space-y-4 ml-20 sm:w-1/3">
-          <h5 className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[24px]`}>
+          <h5 className={`${interItalic.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[20px]`}>
             Testimonials
           </h5>
-          <h1 className="text-[22px] sm:text-[30px] md:text-[36px] lg:text-[40px]">
+          <h1 className="text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]">
           Testimonials from skaters, cities and skatepark enthusiasts, alike.
           </h1>
         </div>
@@ -117,13 +117,13 @@ export default function HomePage() {
       >
         <div className="sm:w-1/4 space-y-4 sm:space-y-8">
         <FadeInSections>
-          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
+          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[16px] pb-4`}>
             THE PRODUCTS
           </h5>
-          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]`}>
+          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[25px]`}>
           Featured Footwear
           </h1>
-          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
+          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[16px]">
             Any and all new arrivals will appear here and new products are added daily so be sure to bookmark us.
           </p>
           </FadeInSections>
@@ -142,39 +142,39 @@ export default function HomePage() {
       >
         <div className="sm:w-1/5 space-y-4 sm:space-y-8">
     <div>
-          <h5 className={`${interBold.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
+          <h5 className={`${interBold.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[16px]`}>
             A BRIEF HISTORY OF BERRICS:
           </h5>
-          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]`}>
+          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[27px]`}>
           1999 - 2003
           </h1>
-          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
+          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[16px]">
             Any and all new arrivals will appear here and new products are added daily so be sure to bookmark us.
           </p>
         </div>
 
         <div>
-          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
+          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[16px]`}>
          
           </h5>
-          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]`}>
+          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[27px]`}>
           2004 - 2010
           </h1>
          
-          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
+          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[16px]">
             Any and all new arrivals will appear here and new products are added daily so be sure to bookmark us.
           </p>
           
         </div>
 
         <div>
-          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[18px]`}>
+          <h5 className={`${interMedium.className} text-[16px] sm:text-[20px] md:text-[22px] lg:text-[16px]`}>
          
           </h5>
-          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[30px]`}>
+          <h1 className={`${interItalic.className} text-[22px] sm:text-[30px] md:text-[36px] lg:text-[27px]`}>
           2011 - 2015
           </h1>
-          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[18px]">
+          <p className="text-[14px] sm:text-[18px] md:text-[20px] lg:text-[16px]">
             Any and all new arrivals will appear here and new products are added daily so be sure to bookmark us.
           </p>
         </div>

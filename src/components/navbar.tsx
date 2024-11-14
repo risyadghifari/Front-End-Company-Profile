@@ -48,7 +48,7 @@ const Navbar = () => {
     navbarColor
   } ${isSolid ? "text-white shadow-md" : "text-white"}`}
 >
-  <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+  <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
     {/* Logo */}
     <Link href="/" className="flex-shrink-0">
       <Image
@@ -88,7 +88,7 @@ const Navbar = () => {
         menuOpen ? "block" : "hidden"
       } absolute top-16 left-0 w-full bg-black text-white md:relative md:top-0 md:flex md:items-center md:justify-end md:space-x-10 md:w-auto md:bg-transparent`}
     >
-      <div className={`${inter.className} flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-10 text-[15px] font-semibold p-4 md:p-0`}>
+      <div className={`${inter.className} flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-10 text-[12px] font-semibold p-4 md:p-0`}>
         <Link href="/" className="hover:text-black hover:bg-slate-50 p-2">
           Home
         </Link>

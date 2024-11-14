@@ -8,17 +8,17 @@ export default function Footer(){
         <div>
 
 <footer className="bg-neutral-50 dark:bg-neutral-50">
-    <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div className="mx-auto w-full max-w-5xl p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
               <Link href="/" className="flex items-center">
-                  <Image src="/the-berric-logo-1-300x63.png" width={200} height={500} className="h-10 me-3" alt="FlowBite Logo" />
+                  <Image src="/the-berric-logo-1-300x63.png" width={120} height={120} className="h-full w-full me-3" alt="FlowBite Logo" />
               </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-10 sm:gap-6 sm:grid-cols-3">
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-gray-900">Company</h2>
-                  <ul className="text-gray-500 dark:text-gray-500 font-medium space-y-3">
+                  <h2 className="mb-6 text-[12px] font-semibold text-gray-900 uppercase dark:text-gray-900">Company</h2>
+                  <ul className="text-gray-800 dark:text-gray-800 font-medium text-[12px] space-y-3">
                       <li>
                           <Link href="/" className="hover:underline">About</Link>
                       </li>
@@ -34,8 +34,8 @@ export default function Footer(){
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-800 uppercase dark:text-gray-800">Follow us</h2>
-                  <ul className="text-gray-500 dark:text-gray-500 font-medium">
+                  <h2 className="mb-6 text-[12px] font-semibold text-gray-800 uppercase dark:text-gray-800">Follow us</h2>
+                  <ul className="text-gray-800 dark:text-gray-800 font-medium text-[12px] space-y-3">
                       <li className="mb-4">
                           <Link href="/" className="hover:underline ">Github</Link>
                       </li>
@@ -45,8 +45,8 @@ export default function Footer(){
                   </ul>
               </div>
               <div>
-                  <h2 className="mb-6 text-sm font-semibold text-gray-800 uppercase dark:text-gray-800">Legal</h2>
-                  <ul className="text-gray-500 dark:text-gray-500 font-medium">
+                  <h2 className="mb-6 text-[12px] font-semibold text-gray-800 uppercase dark:text-gray-800">Legal</h2>
+                  <ul className="text-gray-800 dark:text-gray-800 font-medium text-[12px] space-y-3">
                       <li className="mb-4">
                           <a href="#" className="hover:underline">Privacy Policy</a>
                       </li>
@@ -59,7 +59,7 @@ export default function Footer(){
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-800">© 2023 <a href="https://flowbite.com/" className="hover:underline">Berrics</a>. All Rights Reserved.
+          <span className="text-[12px] text-gray-500 sm:text-center dark:text-gray-800">© 2023 <a href="https://flowbite.com/" className="hover:underline">Berrics</a>. All Rights Reserved.
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
               <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
